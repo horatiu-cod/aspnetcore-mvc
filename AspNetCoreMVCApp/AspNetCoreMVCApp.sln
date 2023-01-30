@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMVCWeb", "AspNetCoreMVCWeb\AspNetCoreMVCWeb.csproj", "{A4CC7093-037C-4967-8922-6BA8E51211DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AF3FA010-2770-47DB-B039-B4DE38FF9D3B} = {AF3FA010-2770-47DB-B039-B4DE38FF9D3B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreMVCLibrary", "AspNetCoreMVCLibrary\AspNetCoreMVCLibrary.csproj", "{AF3FA010-2770-47DB-B039-B4DE38FF9D3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{A4CC7093-037C-4967-8922-6BA8E51211DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4CC7093-037C-4967-8922-6BA8E51211DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4CC7093-037C-4967-8922-6BA8E51211DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF3FA010-2770-47DB-B039-B4DE38FF9D3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF3FA010-2770-47DB-B039-B4DE38FF9D3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF3FA010-2770-47DB-B039-B4DE38FF9D3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF3FA010-2770-47DB-B039-B4DE38FF9D3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
