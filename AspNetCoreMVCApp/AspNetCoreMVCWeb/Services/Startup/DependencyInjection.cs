@@ -1,5 +1,4 @@
-﻿using AspNetCoreMVCLibrary.DataAccess;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
 namespace AspNetCoreMVCWeb.Services.Startup;
 
@@ -11,6 +10,7 @@ public static class DependencyInjection
         builder.Services.AddDbContext<ApplicationDbContext>(option => option.UseSqlServer(
             builder.Configuration.GetConnectionString("DefaultConnetion")
             ));
+        builder.Services.AddRazorPages();
 
         return builder;
     }
